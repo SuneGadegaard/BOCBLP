@@ -1,4 +1,4 @@
-instance ParPoints WeakPoints TotalTime
+Instance ParetoPoint WeakPAretoPoints TotalTime
 
 1_0	6	0	13.2742
 1_1	8	0	16.2265
