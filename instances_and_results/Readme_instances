@@ -1,0 +1,39 @@
+We use the following parameter names for the uncapacitated, capacitated,
+and single source capacitated facility location facility location problems:
+
+------------------------------------------------------------
+n = number of potential facility sites
+m = number of customers
+s_i = capacity of facility i
+f_i = fixed cost of opening facility i
+d_j = demand at customer j
+c_{i,j} = cost of supplying all customer j's demand from facility i
+t{i,j} = travel time between facility i and customer j
+------------------------------------------------------------
+
+The instances have the following format:
+------------------------------------------------------------
+n 
+m 
+s_1 f_1
+s_2 f_2
+...
+s_n f_n
+d_1 d_2 ... d_m
+
+c_{1,1}... c_{1,m}
+c_{2,1}... c_{2,m}
+...
+c_{n,1}... c_{n,m}
+
+t_{1,1}... t_{1,m}
+t_{2,1}... t_{2,m}
+...
+t_{n,1}... t_{n,m}
+------------------------------------------------------------
+If the instance is a uncapacitated facility location problem (UFLP), then the class rdDat sets each 
+demand d_j=1 and each capacity s_i=m. This provides a valid instance of the UFLP
+------------------------------------------------------------
+For each testbed we have used in the paper "A bi--objective approach to cost--bottleneck location problems" 
+three cost structures for the t_{i,j}'s have been generated. These are separated in separete folders named
+Cost1, Cost2, and Cost3, respectively.
