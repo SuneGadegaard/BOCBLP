@@ -1,0 +1,9 @@
+For each instance a file containing detailed information on the instance is generated. They are named by the instance number and
+cost structure (shifted by one compare to the names in the paper. That is C1 ~ 0, C2 ~ 1, and C3 ~ 2). 
+It contains the number of non--dominated points, the number of weakly dominated points generated, the total CPU time in seconds, 
+a list of the time it took to generate each point on the frontier, and a list of the points on the frontier sorted in increasing 
+order of the first coordinate.
+
+In addition, a summary file summarizing the total time, number of non--dominated points, number of weakly dominated points, 
+the difference between the first coordinate of the lexicographic minima, and the difference between the second coordinate
+of the lexicographic minima.
